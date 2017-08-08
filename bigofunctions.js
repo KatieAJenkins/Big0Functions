@@ -23,7 +23,7 @@ var string = "Mississippi";
 
 function containsDups(string) {
   for(var i = 0; i <= string.length; i++){
-    for (var j = 1; j <=string.length; i++){
+    for (var j = 1; j <=string.length; j++){
       if (i === j) {
         console.log('true');
       }
